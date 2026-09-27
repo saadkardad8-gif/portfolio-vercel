@@ -61,6 +61,38 @@ button:hover {
   background: #334155;
 }
 
+.experience-card {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 30px;
+  background: #1e293b;
+  border-radius: 12px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.experience-card:hover {
+  background: #334155;
+}
+
+.experience-header {
+  margin-bottom: 15px;
+}
+
+.experience-company {
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.experience-card p {
+  margin-bottom: 15px;
+}
+
+.experience-list {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
 /* Responsive */
 @media(max-width: 768px){
   .cards {
